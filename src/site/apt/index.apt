@@ -1,0 +1,10 @@
+            ------
+            Idiro Task Manager
+            ------
+
+Introduction
+
+  The Idiro Task Manager project is a framework that provide functionalities for
+using command lines and user processes (repeatitive process that does not have a
+lot of arguments). 
+
