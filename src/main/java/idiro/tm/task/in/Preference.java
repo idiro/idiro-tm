@@ -71,6 +71,7 @@ public class Preference<T> extends TaskInput<T>{
 	 *         or there is no value store for this Preference,
 	 *         the value in the other cases.
 	 */
+	@SuppressWarnings("unchecked")
 	public T get(){
 		T value = null;
 		switch(type){
@@ -135,6 +136,10 @@ public class Preference<T> extends TaskInput<T>{
 	 */
 	public void reset(){
 		put(defaultValue);
+	}
+	
+	public void remove(){
+		prefs.remove(getDescription());
 	}
 
 	/**

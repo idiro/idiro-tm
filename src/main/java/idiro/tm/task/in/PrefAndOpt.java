@@ -98,7 +98,7 @@ public class PrefAndOpt<T> extends Preference<T>{
 	 * @param label label to describe what the preference do
 	 * @param optional set the option as optional or mandatory
 	 */
-	public PrefAndOpt(Preferences prefs, Option opt,  String key, String label, T defaultValue,
+	public PrefAndOpt(Preferences prefs, Option<T> opt,  String key, String label, T defaultValue,
 			boolean optional) {
 		super(prefs, label,defaultValue,optional);
 		opt.setDefaultValue(defaultValue);
@@ -129,14 +129,14 @@ public class PrefAndOpt<T> extends Preference<T>{
 	/**
 	 * @return the opt
 	 */
-	public Option getOpt() {
+	public Option<T> getOpt() {
 		return opt;
 	}
 
 	/**
 	 * @param opt the opt to set
 	 */
-	public void setOpt(Option opt) {
+	public void setOpt(Option<T> opt) {
 		this.opt = opt;
 	}
 	
