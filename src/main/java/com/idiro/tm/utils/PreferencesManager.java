@@ -1,13 +1,14 @@
-package idiro.tm.utils;
+package com.idiro.tm.utils;
 
-import idiro.Log;
-import idiro.tm.ProcessManager;
-import idiro.tm.task.Process;
 
 import java.util.List;
 import java.util.prefs.Preferences;
 
 import org.apache.log4j.Logger;
+
+import com.idiro.Log;
+import com.idiro.tm.ProcessManager;
+import com.idiro.tm.task.Process;
 
 /**
  * Manages the preferences tree operation

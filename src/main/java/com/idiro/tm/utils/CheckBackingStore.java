@@ -1,4 +1,4 @@
-package idiro.tm.utils;
+package com.idiro.tm.utils;
 
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;

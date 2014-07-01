@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-package idiro.tm.gui;
+package com.idiro.tm.gui;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -33,8 +33,9 @@ import javax.accessibility.AccessibleContext;
 import javax.accessibility.AccessibleRole;
 import javax.swing.JPanel;
 import javax.swing.event.MouseInputAdapter;
-import idiro.tm.gui.MultiSplitLayout.Divider;
-import idiro.tm.gui.MultiSplitLayout.Node;
+
+import com.idiro.tm.gui.MultiSplitLayout.Divider;
+import com.idiro.tm.gui.MultiSplitLayout.Node;
 
 /**
  *

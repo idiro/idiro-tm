@@ -1,7 +1,5 @@
-package idiro.tm.task;
+package com.idiro.tm.task;
 
-import idiro.tm.ProcessManager;
-import idiro.utils.Time;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -9,11 +7,14 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import idiro.tm.task.in.ArgumentParser;
-import idiro.tm.task.in.Option;
-import idiro.tm.task.in.PrefAndOpt;
-import idiro.tm.task.in.Preference;
-import idiro.tm.task.in.TaskInput;
+import com.idiro.tm.ProcessManager;
+import com.idiro.tm.task.in.ArgumentParser;
+import com.idiro.tm.task.in.Option;
+import com.idiro.tm.task.in.PrefAndOpt;
+import com.idiro.tm.task.in.Preference;
+import com.idiro.tm.task.in.TaskInput;
+import com.idiro.utils.Time;
+
 
 
 /**

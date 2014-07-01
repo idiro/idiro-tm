@@ -1,13 +1,10 @@
-package idiro.tm;
+package com.idiro.tm;
 
 /*
  * Copyright 2009 by Idiro Technologies. 
  * All rights reserved
  */
 
-import idiro.Block;
-import idiro.BlockManager;
-import idiro.Log;
 
 import java.io.File;
 import java.util.Iterator;
@@ -15,6 +12,10 @@ import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
+
+import com.idiro.Block;
+import com.idiro.BlockManager;
+import com.idiro.Log;
 
 
 /**

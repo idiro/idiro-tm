@@ -1,7 +1,7 @@
-package idiro.tm.task.utils;
+package com.idiro.tm.task.utils;
 
-import idiro.tm.task.Task;
-import idiro.tm.utils.PreferencesManager;
+import com.idiro.tm.task.Task;
+import com.idiro.tm.utils.PreferencesManager;
 
 /**
  * Resets preferences of all the processes

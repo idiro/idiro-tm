@@ -1,7 +1,5 @@
-package idiro.tm.task;
+package com.idiro.tm.task;
 
-import idiro.tm.ProcessManager;
-import idiro.utils.Time;
 
 import java.util.Iterator;
 import java.util.List;
@@ -9,11 +7,14 @@ import java.util.prefs.BackingStoreException;
 
 import org.apache.log4j.Logger;
 
-import idiro.tm.task.in.Option;
-import idiro.tm.task.in.Preference;
-import idiro.tm.task.in.TaskInput;
-import idiro.tm.task.in.TaskInputList;
-import idiro.tm.utils.CheckBackingStore;
+import com.idiro.tm.ProcessManager;
+import com.idiro.tm.task.in.Option;
+import com.idiro.tm.task.in.Preference;
+import com.idiro.tm.task.in.TaskInput;
+import com.idiro.tm.task.in.TaskInputList;
+import com.idiro.tm.utils.CheckBackingStore;
+import com.idiro.utils.Time;
+
 
 public abstract class SuperTask extends Process{
 

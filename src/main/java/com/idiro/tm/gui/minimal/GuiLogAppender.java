@@ -1,4 +1,4 @@
-package idiro.tm.gui.minimal;
+package com.idiro.tm.gui.minimal;
 
 import javax.swing.JTextArea;
 

@@ -1,6 +1,5 @@
-package idiro.tm.gui.minimal;
+package com.idiro.tm.gui.minimal;
 
-import idiro.tm.ProcessManager;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -26,10 +25,12 @@ import javax.swing.tree.TreePath;
 
 import org.apache.log4j.Logger;
 
-import idiro.tm.gui.MultiSplitLayout;
-import idiro.tm.gui.MultiSplitPane;
-import idiro.tm.gui.MultiSplitLayout.Node;
-import idiro.tm.task.Process;
+import com.idiro.tm.ProcessManager;
+import com.idiro.tm.gui.MultiSplitLayout;
+import com.idiro.tm.gui.MultiSplitPane;
+import com.idiro.tm.gui.MultiSplitLayout.Node;
+import com.idiro.tm.task.Process;
+
 
 /**
  * Main Window of the minimal gui

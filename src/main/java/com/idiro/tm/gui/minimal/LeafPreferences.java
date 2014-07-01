@@ -1,4 +1,4 @@
-package idiro.tm.gui.minimal;
+package com.idiro.tm.gui.minimal;
 
 import java.awt.ComponentOrientation;
 import java.awt.GridLayout;
@@ -16,9 +16,10 @@ import javax.swing.JTextField;
 
 import org.apache.log4j.Logger;
 
-import idiro.tm.task.Process;
-import idiro.tm.task.SuperTask;
-import idiro.tm.task.in.Preference;
+import com.idiro.tm.task.Process;
+import com.idiro.tm.task.SuperTask;
+import com.idiro.tm.task.in.Preference;
+
 
 /**
  * Displays the preferences involved in one process

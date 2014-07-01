@@ -1,4 +1,4 @@
-package idiro.tm.gui.minimal;
+package com.idiro.tm.gui.minimal;
 
 import java.util.Enumeration;
 import java.util.Iterator;

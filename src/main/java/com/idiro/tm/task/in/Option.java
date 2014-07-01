@@ -1,4 +1,4 @@
-package idiro.tm.task.in;
+package com.idiro.tm.task.in;
 
 import org.apache.log4j.Logger;
 

@@ -1,9 +1,10 @@
-package idiro.tm.gui;
+package com.idiro.tm.gui;
 
 import java.util.List;
 
-import idiro.tm.gui.minimal.MainWindow;
-import idiro.tm.task.Task;
+import com.idiro.tm.gui.minimal.MainWindow;
+import com.idiro.tm.task.Task;
+
 
 /**
  * Draw a window with a minimal interface

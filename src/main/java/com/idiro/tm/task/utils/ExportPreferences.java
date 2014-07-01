@@ -1,4 +1,4 @@
-package idiro.tm.task.utils;
+package com.idiro.tm.task.utils;
 
 import java.io.*;
 import java.util.prefs.BackingStoreException;
@@ -6,9 +6,10 @@ import java.util.prefs.Preferences;
 
 import org.apache.log4j.Logger;
 
-import idiro.tm.task.Task;
-import idiro.tm.task.in.Option;
-import idiro.tm.task.in.PrefAndOpt;
+import com.idiro.tm.task.Task;
+import com.idiro.tm.task.in.Option;
+import com.idiro.tm.task.in.PrefAndOpt;
+
 
 /**
  * Exports the preferences stored into two files 

@@ -1,7 +1,6 @@
-package idiro.tm.gui.minimal;
+package com.idiro.tm.gui.minimal;
 
 
-import idiro.tm.ProcessManager;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
@@ -23,6 +22,8 @@ import javax.swing.event.DocumentListener;
 import javax.swing.text.BadLocationException;
 
 import org.apache.log4j.Logger;
+
+import com.idiro.tm.ProcessManager;
 
 
 /**

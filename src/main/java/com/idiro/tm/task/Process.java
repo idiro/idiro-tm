@@ -1,6 +1,5 @@
-package idiro.tm.task;
+package com.idiro.tm.task;
 
-import idiro.Block;
 
 import java.util.Iterator;
 import java.util.List;
@@ -8,8 +7,10 @@ import java.util.prefs.Preferences;
 
 import org.apache.log4j.Logger;
 
+import com.idiro.Block;
+import com.idiro.tm.task.in.*;
 
-import idiro.tm.task.in.*;
+
 
 /**
  * Abstract class which allows to launch processes 
