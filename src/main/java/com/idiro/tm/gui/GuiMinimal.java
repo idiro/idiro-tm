@@ -1,7 +1,5 @@
 package com.idiro.tm.gui;
 
-import java.util.List;
-
 import com.idiro.tm.gui.minimal.MainWindow;
 import com.idiro.tm.task.Task;
 

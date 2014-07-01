@@ -1,12 +1,12 @@
 package com.idiro.tm.task.utils;
 
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.prefs.Preferences;
 
-import org.apache.log4j.Logger;
-
 import com.idiro.tm.task.Task;
-import com.idiro.tm.task.in.ArgumentParser;
 import com.idiro.tm.task.in.Option;
 
 

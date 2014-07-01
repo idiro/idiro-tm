@@ -1,6 +1,5 @@
 package com.idiro.tm.gui.minimal;
 
-import java.awt.ComponentOrientation;
 import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.event.ActionEvent;

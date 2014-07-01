@@ -3,7 +3,6 @@ package com.idiro.tm.gui.minimal;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.LayoutManager;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
@@ -28,7 +27,6 @@ import org.apache.log4j.Logger;
 import com.idiro.tm.ProcessManager;
 import com.idiro.tm.gui.MultiSplitLayout;
 import com.idiro.tm.gui.MultiSplitPane;
-import com.idiro.tm.gui.MultiSplitLayout.Node;
 import com.idiro.tm.task.Process;
 
 

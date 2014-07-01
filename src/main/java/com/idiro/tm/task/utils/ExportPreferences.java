@@ -1,13 +1,13 @@
 package com.idiro.tm.task.utils;
 
-import java.io.*;
-import java.util.prefs.BackingStoreException;
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
 import java.util.prefs.Preferences;
 
 import org.apache.log4j.Logger;
 
 import com.idiro.tm.task.Task;
-import com.idiro.tm.task.in.Option;
 import com.idiro.tm.task.in.PrefAndOpt;
 
 
