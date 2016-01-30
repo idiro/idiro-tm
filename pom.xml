@@ -7,14 +7,14 @@
     <groupId>idiro</groupId>
     <artifactId>idiro-tm</artifactId>
     <packaging>jar</packaging>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.3</version>
     <name>Idiro Task Manager</name>
     <description>Provide Basic Task Management Functionalities to idiro java programmes</description>
     <url>http://dev.local.net/dev/idiro-tm</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <idiro-base.version>0.1</idiro-base.version>
+        <idiro-base.version>0.3</idiro-base.version>
     </properties>
 
 
